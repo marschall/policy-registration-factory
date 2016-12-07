@@ -12,7 +12,7 @@ import javax.naming.spi.ObjectFactory;
 import org.jboss.security.authorization.PolicyRegistration;
 
 /**
- * Creates a {@link PolicyRegistration} that always throws a
+ * Creates a {@link PolicyRegistration} that always throws an
  * {@link UnsupportedOperationException}. Useful for cases when a
  * {@link PolicyRegistration} is not needed but a lookup happens
  * anyway.

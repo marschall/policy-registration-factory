@@ -83,6 +83,7 @@
         <configuration>
           <links>
             <link>https://docs.oracle.com/javase/8/docs/api/</link>
+            <link>https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/</link>
           </links>
         </configuration>
         <executions>
