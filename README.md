@@ -1,4 +1,4 @@
-Policy Registration Factory
+Policy Registration Factory [![Javadocs](http://www.javadoc.io/badge/com.github.marschall/policy-registration-factory.svg)](http://www.javadoc.io/doc/com.github.marschall/policy-registration-factory) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.marschall/policy-registration-factory/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.marschall/policy-registration-factory)
 ===========================
 
 A JNDI ObjectFactory for a PolicyRegistration. This is a work around for [SECURITY-864](https://issues.jboss.org/browse/SECURITY-864).
