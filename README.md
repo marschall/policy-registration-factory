@@ -8,10 +8,10 @@ This used deprecated API that is likely going away with [Elytron](https://docs.j
 Two classes are offered
 
 <dl>
-  <dd>com.github.marschall.policyregistrationfactory.EmptyPolicyRegistrationObjectFactory</dd>
-  <dt>Creates a `PolicyRegistration` that always throws an `UnsupportedOperationException`. Useful for cases when a `PolicyRegistration` is not needed but a lookup happens anyway.</dt>
-  <dd>com.github.marschall.policyregistrationfactory.JBossPolicyRegistrationObjectFactory</dd>
-  <dt>Creates a new `JBossPolicyRegistration`.</dt>
+  <dt>com.github.marschall.policyregistrationfactory.EmptyPolicyRegistrationObjectFactory</dt>
+  <dd>Creates a `PolicyRegistration` that always throws an `UnsupportedOperationException`. Useful for cases when a `PolicyRegistration` is not needed but a lookup happens anyway.</dd>
+  <dt>com.github.marschall.policyregistrationfactory.JBossPolicyRegistrationObjectFactory</dt>
+  <dd>Creates a new `JBossPolicyRegistration`.</dd>
 </dl>
 
 
