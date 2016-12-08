@@ -9,9 +9,9 @@ Two classes are offered
 
 <dl>
   <dt>com.github.marschall.policyregistrationfactory.EmptyPolicyRegistrationObjectFactory</dt>
-  <dd>Creates a [PolicyRegistration](https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/org/jboss/security/authorization/PolicyRegistration.html) that always throws an [UnsupportedOperationException](https://docs.oracle.com/javase/8/docs/api/java/lang/UnsupportedOperationException.html). Useful for cases when a <code>PolicyRegistration</code> is not needed but a lookup happens anyway.</dd>
+  <dd>Creates a <a href="https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/org/jboss/security/authorization/PolicyRegistration.html">PolicyRegistration</a> that always throws an <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a>. Useful for cases when a <code>PolicyRegistration</code> is not needed but a lookup happens anyway.</dd>
   <dt>com.github.marschall.policyregistrationfactory.JBossPolicyRegistrationObjectFactory</dt>
-  <dd>Creates a new [JBossPolicyRegistratio](https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/org/jboss/security/plugins/JBossPolicyRegistration.html).</dd>
+  <dd>Creates a new <a href="https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/org/jboss/security/plugins/JBossPolicyRegistration.html">JBossPolicyRegistratio</a>.</dd>
 </dl>
 
 
