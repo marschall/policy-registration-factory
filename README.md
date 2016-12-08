@@ -9,9 +9,9 @@ Two classes are offered
 
 <dl>
   <dt>com.github.marschall.policyregistrationfactory.EmptyPolicyRegistrationObjectFactory</dt>
-  <dd>Creates a `PolicyRegistration` that always throws an `UnsupportedOperationException`. Useful for cases when a `PolicyRegistration` is not needed but a lookup happens anyway.</dd>
+  <dd>Creates a [PolicyRegistration](https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/org/jboss/security/authorization/PolicyRegistration.html) that always throws an [UnsupportedOperationException](https://docs.oracle.com/javase/8/docs/api/java/lang/UnsupportedOperationException.html). Useful for cases when a <code>PolicyRegistration</code> is not needed but a lookup happens anyway.</dd>
   <dt>com.github.marschall.policyregistrationfactory.JBossPolicyRegistrationObjectFactory</dt>
-  <dd>Creates a new `JBossPolicyRegistration`.</dd>
+  <dd>Creates a new [JBossPolicyRegistratio](https://access.redhat.com/webassets/avalon/d/red-hat-jboss-enterprise-application-platform/7.0.0/javadocs/org/jboss/security/plugins/JBossPolicyRegistration.html).</dd>
 </dl>
 
 
