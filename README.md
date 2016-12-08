@@ -18,5 +18,22 @@ Two classes are offered
 Installation
 ------------
 
- * put the jar in a `com/github/marschall/policyregistrationfactory/main` folder
+You need to create a [JBoss module](https://docs.jboss.org/author/display/MODULES/Introduction)
+
+ * put the jar in a `modules/system/layers/base/com/github/marschall/policyregistrationfactory/main` folder (or whatever your [distribution layer](https://developer.jboss.org/wiki/LayeredDistributionsAndModulePathOrganization) is)
  * add a [module.xml](https://github.com/marschall/policy-registration-factory/blob/master/src/main/resources/module.xml)
+ * [configure](https://docs.jboss.org/author/display/WFLY10/General+configuration+concepts) the object factory and bind it to a name 
+
+
+```xml
+<subsystem xmlns="urn:jboss:domain:naming:2.0">
+  <bindings>
+    <object-factory
+         name="java:/policyRegistration"
+         module="com.github.marschall.policyregistrationfactory"
+         class="com.github.marschall.policyregistrationfactory.EmptyPolicyRegistrationObjectFactory"/>
+  </bindings>
+</subsystem>
+
+```
+
