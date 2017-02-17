@@ -20,7 +20,7 @@ Installation
 
 You need to create a [JBoss module](https://docs.jboss.org/author/display/MODULES/Introduction)
 
- * put the jar in a `modules/system/layers/base/com/github/marschall/policyregistrationfactory/main` folder (or whatever your [distribution layer](https://developer.jboss.org/wiki/LayeredDistributionsAndModulePathOrganization) is)
+ * put the jar in a `${JBOSS_HOME}/modules/system/layers/base/com/github/marschall/policyregistrationfactory/main` folder (or whatever your [distribution layer](https://developer.jboss.org/wiki/LayeredDistributionsAndModulePathOrganization) is)
  * add a [module.xml](https://github.com/marschall/policy-registration-factory/blob/master/src/main/resources/module.xml), you can take the one from the root of the JAR
  * [configure](https://docs.jboss.org/author/display/WFLY10/Naming+Subsystem+Configuration) the object factory and bind it to a name 
 
