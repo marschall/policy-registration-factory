@@ -3,7 +3,7 @@ Policy Registration Factory [![Javadocs](http://www.javadoc.io/badge/com.github.
 
 A JNDI ObjectFactory for a PolicyRegistration. This is a work around for [SECURITY-864](https://issues.jboss.org/browse/SECURITY-864).
 
-This used deprecated API that is likely going away with [Elytron](https://docs.jboss.org/author/display/WFLY/WildFly+Elytron+Security).
+This uses deprecated API that is likely going away with [Elytron](https://docs.jboss.org/author/display/WFLY/WildFly+Elytron+Security).
 
 Two classes are offered
 
