@@ -24,6 +24,7 @@ You need to create a [JBoss module](https://docs.jboss.org/author/display/MODULE
  * add a [module.xml](https://github.com/marschall/policy-registration-factory/blob/master/src/main/resources/module.xml), you can take the one from the root of the JAR
  * [configure](https://docs.jboss.org/author/display/WFLY10/Naming+Subsystem+Configuration) the object factory and bind it to a name 
 
+For `EmptyPolicyRegistrationObjectFactory` use
 
 ```xml
 <subsystem xmlns="urn:jboss:domain:naming:2.0">
@@ -32,6 +33,20 @@ You need to create a [JBoss module](https://docs.jboss.org/author/display/MODULE
          name="java:/policyRegistration"
          module="com.github.marschall.policyregistrationfactory"
          class="com.github.marschall.policyregistrationfactory.EmptyPolicyRegistrationObjectFactory"/>
+  </bindings>
+</subsystem>
+
+```
+
+For `JBossPolicyRegistrationObjectFactory` use
+
+```xml
+<subsystem xmlns="urn:jboss:domain:naming:2.0">
+  <bindings>
+    <object-factory
+         name="java:/policyRegistration"
+         module="com.github.marschall.policyregistrationfactory"
+         class="com.github.marschall.policyregistrationfactory.JBossPolicyRegistrationObjectFactory"/>
   </bindings>
 </subsystem>
 
