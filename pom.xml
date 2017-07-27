@@ -8,10 +8,6 @@
   <name>PolicyRegistrationFactory</name>
   <description>A JNDI ObjectFactory for a JBossPolicyRegistration.</description>
 
-  <prerequisites>
-    <maven>3.0.3</maven>
-  </prerequisites>
-
   <url>https://github.com/marschall/policy-registration-factory</url>
 
   <scm>
@@ -130,11 +126,11 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.6.0</version>
+          <version>3.6.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>3.0.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
@@ -166,7 +162,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.19.1</version>
+          <version>2.20</version>
         </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
